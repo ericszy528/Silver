@@ -35,14 +35,6 @@ const API_SITES = {
         name: '官方资源',
         api: 'http://zy.jinchancaiji.com/api.php/provide/vod',
         player: 'https://www.yemu.xyz/?url=',
-              sourceAlias: {
-        'qiyi': '爱奇艺',
-        'qq': '腾讯视频',
-        'bilibili': '哔哩哔哩',
-        'youku': '优酷视频',
-        'mgtv': '芒果TV'
-        },
-        allowedSources: ['qq', 'qiyi', 'youku','mgtv','bilibili'],
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
