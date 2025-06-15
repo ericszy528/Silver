@@ -1,9 +1,9 @@
-# 在线视频搜索与观看平台
+# 在线视频搜索与观看平台！
 
 <div align="center">
   <img src="image/logo.png" alt="LibreTV Logo" width="120">
   <br>
-  <p><strong>自由观影，畅享精彩</strong></p>
+  <p><strong>自由观影，畅享精彩！</strong></p>
 </div>
 
 ### 🔒 强烈建议设置密码保护
@@ -116,7 +116,7 @@ npm run dev
 
 ### 密码保护
 
-要为您的 LibreTV 实例添加密码保护，可以在部署平台上设置环境变量：
+要为您的实例添加密码保护，可以在部署平台上设置环境变量：
 
 **环境变量名**: `PASSWORD` 
 **值**: 您想设置的密码
@@ -135,7 +135,7 @@ npm run dev
 
 ### API兼容性
 
-LibreTV 支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵循以下格式：
+支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵循以下格式：
 - 搜索接口: `https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词`
 - 详情接口: `https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID`
 
